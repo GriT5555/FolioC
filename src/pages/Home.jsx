@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
 import Intro from "../components/Intro";
 import Footer from "../components/Footer";
-import CardsContainer from "../components/Cards";
+import CardsContainer from "../components/CardsContainer";
 import Customhr from "../components/CustomHR";
 
 export default function Home(){
