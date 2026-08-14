@@ -1,11 +1,11 @@
-import NavBtn from "./NavBtn";
+import NavBtn from "../Subcomps/NavBtn";
 
 export default function Navbar(title, id) {
     return(
-            <div>
+            <nav className="NavBar">
                 <NavBtn title="Me" id="Me"/>
                 <NavBtn title="Stacks" id="Stacks"/>
                 <NavBtn title="Projects" id="Projects"/>
-            </div>
+            </nav>
     );
 }

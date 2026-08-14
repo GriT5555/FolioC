@@ -1,25 +1,18 @@
-
 body {
-  display: flex;
-  flex-direction: column;
-  color: black;
-  margin: 0;
-}
-
-#root {
-  width: 100vw;
-  max-width: 100%;
-  margin: 0 auto;
-  text-align: center;
-  border-inline: 1px solid var(--border);
-  min-height: 100svh;
-  display: flex;
-  flex-direction: column;
+  width: 95%;
   box-sizing: border-box;
 }
 
-h1,
-h2 {
+:root {
+  display: flex;
+  flex-direction: column;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  place-items: center;
+}
+
+h1, h2 {
   font-family: var(--heading);
   font-weight: 500;
   color: var(--text-h);
@@ -60,4 +53,39 @@ code {
   line-height: 135%;
   padding: 4px 8px;
   background: var(--code-bg);
+}
+
+.CustomHR{
+  border: none;
+  height: 2px;
+  background-color: #333;
+  margin: 20px 0;
+}
+
+.NavBar{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid red;
+  box-sizing: border-box;
+}
+
+.Intro{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  box-sizing: border-box;
+}
+
+.ProjectCards{
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  border: 1px solid red;
+}
+
+.footer{
+  display: flex;
+  flex: row;
+  border: 1px solid red;
+  box-sizing: border-box;
 }
