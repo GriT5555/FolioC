@@ -3,6 +3,13 @@ body {
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Monospace";
+  src: url("/FolioC/src/fonts/Monospace.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 $txtbord: #4D234D;
 $cbck: #ECDCC9;
 $pbck: #CAC2B5;
@@ -16,6 +23,7 @@ $pot2:#EDD4B2;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   place-items: center;
+  font-family: "Monospace";
 }
 
 h1, h2 {
