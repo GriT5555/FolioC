@@ -24,12 +24,14 @@ $pot2:#EDD4B2;
   -webkit-font-smoothing: antialiased;
   place-items: center;
   font-family: "Monospace";
+  color: $txtbord;
 }
 
 h1, h2 {
   font-family: var(--heading);
   font-weight: 500;
-  color: var(--text-h);
+  color: $txtbord;
+
 }
 
 h1 {
@@ -86,8 +88,11 @@ code {
 .Intro{
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
+  border: 3px solid $txtbord;
   box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 15px 50px 30px;
+  background-color: $pbck;
 }
 
 .ProjectCards{
@@ -95,6 +100,7 @@ code {
   flex-direction: row;
   box-sizing: border-box;
   border: 1px solid red;
+  background-color: $pbck;
 }
 
 .footer{
@@ -102,4 +108,5 @@ code {
   flex: row;
   border: 1px solid red;
   box-sizing: border-box;
+  background-color: $pbck;
 }
