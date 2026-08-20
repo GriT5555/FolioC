@@ -1,6 +1,8 @@
-body {
+body, html {
   width: 80%;
   box-sizing: border-box;
+  min-height: 100vh;
+  background-image: linear-gradient(to top, #ffffff, #fcf5fa, #feeaec, #fbe1d6, #ebddc2);
 }
 
 @font-face {
@@ -25,7 +27,7 @@ $bckIvo:#EBDDC2;
   -webkit-font-smoothing: antialiased;
   place-items: center;
   font-family: "Monospace";
-  color: $bckIvo;
+  min-height: 100vh;
 }
 
 h1, h2 {
