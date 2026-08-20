@@ -1,6 +1,6 @@
 import NavBtn from "../Subcomps/NavBtn";
 
-export default function Navbar(title, id) {
+export default function Navbar() {
     return(
             <nav className="NavBar">
                 <NavBtn title="Me" id="Me"/>

@@ -1,5 +1,5 @@
-export default function NavBtn(){
+export default function NavBtn({title, className, id}){
     return(
-        <button className="NavBtn">ye le button</button>
+        <button className="NavBtn" id={id}>{title}</button>
     );
 }
