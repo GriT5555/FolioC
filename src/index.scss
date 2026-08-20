@@ -1,8 +1,10 @@
 body, html {
-  width: 80%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
   box-sizing: border-box;
   min-height: 100vh;
-  background-image: linear-gradient(to top, #ffffff, #fcf5fa, #feeaec, #fbe1d6, #ebddc2);
+  background-image: linear-gradient(to top, #ffffff, #ebddc2);
 }
 
 @font-face {
@@ -20,14 +22,10 @@ $pot2:#EDD4B2;
 $bckIvo:#EBDDC2;
 
 :root {
-  display: flex;
-  flex-direction: column;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  place-items: center;
   font-family: "Monospace";
-  min-height: 100vh;
 }
 
 h1, h2 {
@@ -81,6 +79,16 @@ code {
   margin: 20px 0;
 }
 
+.guts{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center; 
+}
+
 .NavBar{
   display: flex;
   flex-direction: row;
@@ -95,7 +103,7 @@ code {
   box-sizing: border-box;
   margin-top: 20px;
   border-radius: 20px;
-  background-color: $pbck;
+  background-color: $cbck;
 }
 
 .ProjectCards{
@@ -103,15 +111,16 @@ code {
   flex-direction: row;
   box-sizing: border-box;
   border: 1px solid $txtbord;
-  background-color: $pbck;
+  background-color: $cbck;
 }
 
 .footer{
   display: flex;
   flex: row;
   width: 100%;
-  color: white;
+  border-top: solid 1px black;
+  color: $txtbord;
   background-color: black;
   box-sizing: border-box;
-  background-color: $pbck;
+  background-color: $cbck;
 }
