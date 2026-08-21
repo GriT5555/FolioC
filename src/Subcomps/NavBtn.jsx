@@ -1,4 +1,4 @@
-export default function NavBtn({title, className, id}){
+export default function NavBtn({title, id}){
     return(
         <button className="NavBtn" id={id}>{title}</button>
     );

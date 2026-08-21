@@ -117,16 +117,21 @@ code {
   border: 1px solid $txtbord;
   background-color: $cbck;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-  width: 90%;
+  max-width: 90%;
   border-radius: 10px;
+}
+
+.Cards{
+  display: flex;
+  flex-direction: column;
+  width: 22.5%;
+  box-sizing: border-box;
 }
 
 .footer{
   display: flex;
   flex: row;
   width: 100%;
-  color: $txtbord;
-  background-color: black;
+  color: black;
   box-sizing: border-box;
-  background-color: $cbck;
 }

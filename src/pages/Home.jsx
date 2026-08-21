@@ -3,6 +3,7 @@ import Intro from "../components/Intro";
 import Footer from "../components/Footer";
 import CardsContainer from "../components/CardsContainer";
 import Customhr from "../components/CustomHR";
+import Techs from "../components/Stack";
 
 export default function Home(){
     return(
@@ -10,8 +11,9 @@ export default function Home(){
             <Navbar />
             <main className="guts">
                 <Intro />
+                <Techs />
                 <Customhr />
-                <CardsContainer />
+                <CardsContainer title="Builds terminés"/>
                 <Customhr />
                 <Footer />
             </main>

@@ -1,7 +1,10 @@
-export default function Cards(){
+export default function Cards({title, cover, stack}){
+
     return(
-        <div>
-            Cards
-        </div>
+        <article className="Cards">
+            <img className="Cover" src={cover}/>
+            <h2 className="PrjTitle">{title}</h2>
+            <ul className="stacklist">{stack}</ul>
+        </article>
     )
 }

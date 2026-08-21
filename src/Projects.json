@@ -1,5 +1,6 @@
 [
     {
+        "id":"11",
         "title":"La base",
         "cover":"",
         "description":"Afin de comprendre ce que l'on construira par la suite, il faut bien apprendre à empiler les blocs simplement et directement comme les jeux de constructions pour enfants, c'est essentiellement ce dont il s'agit, une introduction a la structure fondamental du web via HTML et l'organisation de ce squelette par la pratique basique du CSS.",
@@ -10,6 +11,7 @@
         ]
     },
     {
+        "id":"21",
         "title":"JS front",
         "cover":"",
         "description":"Une introduction intensive a l'utilisation de Javascript via la personalisation d'un portofolio d'une architecte d'intérieure fictive incluant la mention de requêtes et utilisation d'un swagger pré-parametré.",
@@ -17,13 +19,15 @@
         "stack":"JavaScript"
     },
     {
+        "id":"31",
         "title":"Debugging and SEO",
         "cover":"",
         "description":"Exposition d'un cas pratique, un site d'une photographe particulière nécessite de flagrantes améliorations, introductions aux audits de performances de sites et applications webs via Lighthouse/GTMetrix et autres, l'écoute des dev tools et analyse des fichiers chargés ainsi qu'aux méthodes de référencement dites de 'SEO' et des balises nécessaires aux résultats enrichis.",
         "pictures":"",
-        "stack":""
+        "stack":"Javascript"
     },
     {
+        "id":"41",
         "title":"React",
         "cover":"",
         "description":"Conception du front-end d'une application de location immobilière grâce à React, utilisation et ré-utilisations de composants, données affichées conditionelles grâce aux props et utilisation via importations de données grâce a un fichier JSON et organisation de ces dernières selon la page souhaitée.",
@@ -34,10 +38,42 @@
         ]
     },
     {
+        "id":"5",
         "title":"Backend Node/MDB",
         "cover":"",
         "description":"Élaboration de la logique backend d'un site de notation de livres, préparations d'un server express et d'une base de données MongoDB et réalisation des modèles selon lesquelles les données s'organiseront dans la base, utilisations de middlewares et contrôleurs appelés via un routeur selon les requêtes utilisateurs, de login et de notation. Qui dit login, dit donc aussi identifiants et cryptage, introduction a la cyber-sécurité et sécurisation de données. Arithmétique et algorithmes simples.",
         "pictures":"",
         "stack":"Javascript"
+    },
+
+
+    
+
+
+    {
+        "id":"12",
+        "title":"Game recorder",
+        "cover":"",
+        "description":"",
+        "pictures":"",
+        "stack":"C#"
+    },
+    {
+        "id":"22",
+        "title":"",
+        "cover":"",
+        "description":"",
+        "pictures":"",
+        "stack":""
+    },
+    {
+        "id":"32",
+        "title":"",
+        "cover":"",
+        "description":"",
+        "pictures":"",
+        "stack":""
     }
 ]
+
+
