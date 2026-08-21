@@ -155,10 +155,20 @@ code {
   padding: 5px;
   cursor: pointer;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  transition:all 0.5s ease;
+  color: inherit;
 }
 
 .Cards:hover{
+  background-color: $txtbord;
+  color: $cbck;
+  border-color: $cbck;
+}
 
+.Cards:hover h2,
+.Cards:hover .stacklist,
+.Cards:hover .stacklist li {
+  color: $cbck;
 }
 
 .footer{
