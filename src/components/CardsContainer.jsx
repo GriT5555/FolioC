@@ -7,7 +7,7 @@ export default function CardsContainer({title}){
         <section className="Projects">
             <section /*Finis*/className="ProjectCards">
                 <h1 className="Conth2">{title}</h1>
-                <div>
+                <div className="Cardbox">
                     {Data.map((project) => {
                         let stackcontent;
                         if(Array.isArray(project.stack)) {

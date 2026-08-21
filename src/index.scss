@@ -38,12 +38,16 @@ h1, h2 {
 h1 {
   font-size: 56px;
   letter-spacing: -1.68px;
+  margin: 0;
+  padding: 0;
   @media (max-width: 1024px) {
     font-size: 36px;
     margin: 20px 0;
   }
 }
 h2 {
+  margin: 0;
+  padding: 0;
   font-size: 24px;
   line-height: 118%;
   letter-spacing: -0.24px;
@@ -112,20 +116,25 @@ code {
 
 .ProjectCards{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   box-sizing: border-box;
   border: 1px solid $txtbord;
   background-color: $cbck;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-  max-width: 90%;
   border-radius: 10px;
+}
+
+.Cardbox{
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
 }
 
 .Cards{
   display: flex;
   flex-direction: column;
-  width: 22.5%;
   box-sizing: border-box;
+  border: 1px solid $txtbord;
 }
 
 .footer{

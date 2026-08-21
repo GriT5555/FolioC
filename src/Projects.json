@@ -44,35 +44,6 @@
         "description":"Élaboration de la logique backend d'un site de notation de livres, préparations d'un server express et d'une base de données MongoDB et réalisation des modèles selon lesquelles les données s'organiseront dans la base, utilisations de middlewares et contrôleurs appelés via un routeur selon les requêtes utilisateurs, de login et de notation. Qui dit login, dit donc aussi identifiants et cryptage, introduction a la cyber-sécurité et sécurisation de données. Arithmétique et algorithmes simples.",
         "pictures":"",
         "stack":"Javascript"
-    },
-
-
-    
-
-
-    {
-        "id":"12",
-        "title":"Game recorder",
-        "cover":"",
-        "description":"",
-        "pictures":"",
-        "stack":"C#"
-    },
-    {
-        "id":"22",
-        "title":"",
-        "cover":"",
-        "description":"",
-        "pictures":"",
-        "stack":""
-    },
-    {
-        "id":"32",
-        "title":"",
-        "cover":"",
-        "description":"",
-        "pictures":"",
-        "stack":""
     }
 ]
 
