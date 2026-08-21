@@ -127,6 +127,7 @@ code {
   background-color: $cbck;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
+  padding: 1%;
 }
 
 .Projects{
@@ -152,11 +153,22 @@ code {
   max-width: 22%;
   border: 1px solid $txtbord;
   border-radius: 5px;
-  padding: 5px;
+  padding: 10px;
   cursor: pointer;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
   transition:all 0.5s ease;
   color: inherit;
+}
+
+.Cards img{
+  width:100% ;
+  object-fit: contain;
+  height: 100px;
+  width:100%;
+  border-radius: 15px;
+  border: $txtbord 1px solid;
+  background-color: White;
+  
 }
 
 .Cards:hover{

@@ -1,33 +1,13 @@
 [
     {
          
-    "id":"12",
-    "title":"Game recorder",
-    "cover":"",
-    "description":"",
-    "pictures":"",
-    "stack":[
-        "C#"
-    ]
-    },
-    {
-        "id":"22",
-        "title":"Focus: Memory Safety, Systems, Performance",
-        "cover":"",
+        "id":"12",
+        "title":"Game recorder",
+        "cover":"https://inspiring-hawk.staticdomains.app/reclogo.webp",
         "description":"",
         "pictures":"",
         "stack":[
-            "Prolog"
-        ]
-    }, 
-    {
-        "id":"32",
-        "title":"Focus: Logic, Rules, Inference",
-        "cover":"",
-        "description":"",
-        "pictures":"",
-        "stack":[
-            "Zig"
+            "C#"
         ]
     }
 ]

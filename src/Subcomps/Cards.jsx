@@ -1,4 +1,6 @@
-export default function Cards({title, cover, stack}){
+export default function Cards({title, cover, stack, onClick}){
+
+    const coversrc = cover && cover.trim() !== "" ? cover : "";
 
     return(
         <article className="Cards">
