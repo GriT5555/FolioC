@@ -9,14 +9,14 @@ export default function Home(){
     return(
         <>
             <Navbar />
-            <main className="guts">
-                <Intro />
-                <Techs />
-                <Customhr />
-                <CardsContainer title="Builds terminés"/>
-                <Customhr />
-                <Footer />
-            </main>
+                <main className="guts">
+                    <Intro />
+                    <Techs />
+                    <Customhr />
+                    <CardsContainer title="Builds terminés"/>
+                    <Customhr />
+                </main>
+            <Footer />
         </>
     );
 }

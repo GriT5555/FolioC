@@ -1,29 +1,32 @@
 body, html {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin: 0;
   padding: 0;
   width: 100%;
   box-sizing: border-box;
   min-height: 100vh;
-  background-image: linear-gradient(to top, #ffffff, #ebddc2);
-  font-family: "Monospace";
+  background-image: linear-gradient(to top, #444441, #111111);
+  font-family: "NeueA";
 }
 
-/*@font-face {
-  font-family: "Monospace";
-  src: url("./fonts/Monospace.ttf") format("truetype");
+@font-face {
+  font-family: "NeueA";
+  src: url("./fonts/NeuealterNM.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
-}*/
+}
 
-$txtbord: #4D234D;
-$cbck: #ECDCC9;
+$txtbord: #F8F4EC;
+$cbck: #343434;
 $pbck: #CAC2B5;
 $pot1:#D0A98F;
 $pot2:#EDD4B2;
 $bckIvo:#EBDDC2;
 
 :root {
-  font-synthesis: none;
+  font-synthesis: none; 
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
@@ -81,7 +84,7 @@ code {
 
 .CustomHR{
   border: none;
-  height: 1px;
+  height: 2px;
   width: 100%;
   background-color: #333;
   margin: 20px 0;
@@ -152,7 +155,7 @@ code {
   box-sizing: border-box;
   max-width: 22%;
   border: 1px solid $txtbord;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 10px;
   cursor: pointer;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
