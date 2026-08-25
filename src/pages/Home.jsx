@@ -13,7 +13,7 @@ export default function Home(){
                     <Intro />
                     <Techs />
                     <Customhr />
-                    <CardsContainer title="Builds terminés"/>
+                    <CardsContainer/>
                     <Customhr />
                 </main>
             <Footer />
