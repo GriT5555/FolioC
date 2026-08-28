@@ -10,10 +10,10 @@ export default function Home(){
         <>
             <Navbar />
                 <main className="guts">
-                    <Intro />
-                    <Techs />
+                    <Intro id="Me"/>
+                    <Techs/>
                     <Customhr />
-                    <CardsContainer/>
+                    <CardsContainer id="Builds"/>
                     <Customhr />
                 </main>
             <Footer />

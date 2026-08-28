@@ -1,5 +1,5 @@
-export default function NavBtn({title, id}){
+export default function NavBtn({title, id, targetId}){
     return(
-        <button className="NavBtn" id={id}>{title}</button>
+        <a className="NavBtn" href={`#${targetId}`} id={id}>{title}</a>
     );
 }
