@@ -1,9 +1,5 @@
-import Datavers from "../Vers.json"
-
-export default function Vers(){
+export default function Vers({display, alt}){
     return(
-        <section>
-
-        </section>
+        <img className="Verspic" src={display} alt={alt}/>
     )
 }

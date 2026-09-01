@@ -25,7 +25,7 @@ export default function CardsContainer(){
                                    cover={project.cover}
                                    stack={stackcontent}
                             />
-
+                            
                         )
                     })}
                 </div>
