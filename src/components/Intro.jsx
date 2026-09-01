@@ -2,7 +2,7 @@ import Vers from "./Vers";
 import Datavers from "../Vers.json"
 
 export default function Intro(){
-    const altext = alt || title || "DevOps version control logo";
+    
     return(
             <section className="Intro">
                 <h1 className="ITitle">Me</h1>
@@ -15,7 +15,7 @@ export default function Intro(){
                         <Vers 
                             key={index}
                             display={item.display}
-                            alt={item.alt || altext} 
+                            alt={item.alt} 
                         />
                     ))}
                 </section>
