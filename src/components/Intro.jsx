@@ -1,3 +1,5 @@
+import Vers from "./Vers";
+
 export default function Intro(){
     return(
             <div className="Intro">
@@ -6,6 +8,7 @@ export default function Intro(){
                 <p className="Iptag">
                     desc
                 </p>
+                <Vers />
             </div>
     );
 }

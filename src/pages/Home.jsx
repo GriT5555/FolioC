@@ -1,9 +1,9 @@
 import Navbar from "../components/Navbar";
 import Intro from "../components/Intro";
-import Footer from "../components/Footer";
 import CardsContainer from "../components/CardsContainer";
 import Customhr from "../components/CustomHR";
-import Techs from "../components/Stack";
+import Skillblocks from "../components/Skillblocks";
+import Footer from "../components/Footer";
 
 export default function Home(){
     return(
@@ -11,7 +11,7 @@ export default function Home(){
             <Navbar />
                 <main className="guts">
                     <Intro id="Me"/>
-                    <Techs/>
+                    <Skillblocks/>
                     <Customhr />
                     <CardsContainer id="Builds"/>
                     <Customhr />
