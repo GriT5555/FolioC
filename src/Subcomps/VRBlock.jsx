@@ -1,7 +1,7 @@
 export default function VRBlock(){
     return(
-        <section className="VertiSep">
+        <div className="VertiSep">
 
-        </section>
+        </div>
     )
 }

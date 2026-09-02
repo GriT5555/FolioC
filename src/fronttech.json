@@ -1,14 +1,32 @@
 [
     {   
         "title":"JS",
-        "display":"https://i.postimg.cc/BQt9G9Ht/jswebp.webp"
-    },
-    {   
-        "title":"SCSS",
-        "display":"https://i.postimg.cc/qMYfJbxM/Scsslogo.webp"
+        "display":"https://i.postimg.cc/BQt9G9Ht/jswebp.webp",
+        "alt":"Javascript"
     },
     {   
         "title":"React",
-        "display":"https://i.postimg.cc/RV8rSsLM/reactlogo.webp"
+        "display":"https://i.postimg.cc/T3zQGPbh/reactlogo-(1).webp",
+        "alt":"React Framework"
+    },
+    {   
+        "title":"CSS",
+        "display":"https://i.postimg.cc/J0Pd4QqV/csslogo.webp",
+        "alt":"Cascading style sheets"
+    },
+    {   
+        "title":"SCSS",
+        "display":"https://i.postimg.cc/qMYfJbxM/Scsslogo.webp",
+        "alt":"Sassy Cascading Style Sheets"
+    },
+    {   
+        "title":"Bootstrap",
+        "display":"https://i.postimg.cc/90JNFBBd/Bootstraplogo.webp",
+        "alt":"Bootstrap"
+    },
+    {
+        "title":"Json",
+        "display":"https://i.postimg.cc/W1ntpqRV/jlogo.webp",
+        "alt":"Json data"
     }
 ]

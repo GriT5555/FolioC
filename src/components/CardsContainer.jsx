@@ -6,8 +6,8 @@ export default function CardsContainer(){
 
     return(
         <section className="Projects">
-            <section /*Finis*/className="ProjectCards">
-                <h1 className="Conth2">Builds terminés</h1>
+            <section className="ProjectCards">
+                <h1 className="Conth2">Builds terminés et projets étudiant</h1>
                 <div className="Cardbox">
                     {Data.map((project) => {
                         let stackcontent;
@@ -31,8 +31,8 @@ export default function CardsContainer(){
                 </div>
             </section>
 
-            <section /*Finis*/className="ProjectCards">
-                <h1 className="Conth2">WIP builds</h1>
+            <section className="ProjectCards">
+                <h1 className="Conth2">WIP builds et futur projets</h1>
                 <div className="Cardbox">
                     {Data2.map((project2) => {
                         let stackcontent;

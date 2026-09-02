@@ -5,9 +5,9 @@ export default function Intro(){
     
     return(
             <section className="Intro">
-                <h1 className="ITitle">Me</h1>
-                <h2>JS Fullstack</h2>
-                <p className="Iptag">
+                <h1 className="ITitle">Moi c'est Mat</h1>
+                <h2>Javascript Fullstack Dev. . . et plus ? </h2>
+                <p className="MeDesc">
                     desc
                 </p>
                 <section className="VersCont">  
@@ -18,6 +18,7 @@ export default function Intro(){
                             alt={item.alt} 
                         />
                     ))}
+                    
                 </section>
             </section>
     );
