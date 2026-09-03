@@ -2,27 +2,24 @@ import Navbar from "../components/Navbar";
 import Intro from "../components/Intro";
 import Journey from "../components/Journey";
 import CardsContainer from "../components/CardsContainer";
-import Customhr from "../components/CustomHR";
 import Skillblocks from "../components/Skillblocks";
 import Footer from "../components/Footer";
 
 export default function Home(){
     return(
         <>
-            <header>
-            <Navbar />
+            <header id="Pas deisgner mais j'essai">
+            <Navbar/>
             </header>
                 <main className="guts">
                     <section className="Mes">
                         <section className="Prev">
-                            <Intro id="Me"/>
+                            <Intro/>
                             <Journey />
                         </section>
                         <Skillblocks/>
-                    </section>
-                    <Customhr />
+                    </section> 
                     <CardsContainer id="Builds"/>
-                    <Customhr />
                 </main>
             <Footer />
         </>

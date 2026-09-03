@@ -2,10 +2,10 @@ import NavBtn from "../Subcomps/NavBtn";
 
 export default function Navbar() {
     return(
-            <nav className="NavBar">
+            <nav className="NavBar" >
                 <NavBtn title="Me" targetId="Me"/>
-                <NavBtn title="Stacks" targetId="Stacks"/>
-                <NavBtn title="Projects" targetId="Builds"/>
+                <NavBtn title="Builds" targetId="Builds"/>
+                <NavBtn title="Contact" targetId="Contact"/>
             </nav>
     );
 }

@@ -9,6 +9,11 @@
         "display":"https://i.postimg.cc/T3zQGPbh/reactlogo-(1).webp",
         "alt":"React Framework"
     },
+    {
+        "title":"Json",
+        "display":"https://i.postimg.cc/W1ntpqRV/jlogo.webp",
+        "alt":"Json data"
+    },
     {   
         "title":"CSS",
         "display":"https://i.postimg.cc/J0Pd4QqV/csslogo.webp",
@@ -23,10 +28,5 @@
         "title":"Bootstrap",
         "display":"https://i.postimg.cc/90JNFBBd/Bootstraplogo.webp",
         "alt":"Bootstrap"
-    },
-    {
-        "title":"Json",
-        "display":"https://i.postimg.cc/W1ntpqRV/jlogo.webp",
-        "alt":"Json data"
     }
 ]

@@ -5,7 +5,7 @@ import Data2 from "../wip.json"
 export default function CardsContainer(){
 
     return(
-        <section className="Projects">
+        <section className="Projects" id="Builds">
             <section className="ProjectCards">
                 <h1 className="Conth2">Builds terminés et projets étudiant</h1>
                 <div className="Cardbox">

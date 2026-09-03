@@ -1,3 +1,4 @@
+@use "sass:color";
 
 $bord: #B0D4E3;
 $cbck: #18181B;
@@ -5,7 +6,11 @@ $pbck: #09090B;
 $pot1:#D0A98F;
 $pot2:#EDD4B2;
 $bckIvo:#EBDDC2;
-$cdh:#50C878;
+$cdh:#FDCF38;
+$CoolYellow:#FDCF38;
+
+$btnadjust:color.adjust($cdh, $lightness: 15%);
+$navbar-height: 70px;
 
 body, html {
   display: flex;
@@ -18,6 +23,7 @@ body, html {
   min-height: 100vh;
   background-color: $pbck;
   font-family: "NeueA";
+  scroll-behavior: smooth;
 }
 
 @font-face {
@@ -89,6 +95,13 @@ code {
   background: var(--code-bg);
 }
 
+.Mes, .Projects{
+  min-height:100vh;
+  scroll-margin-top: $navbar-height;
+  padding-top: $navbar-height;
+  padding-bottom: 40px;
+}
+
 .CustomHR{
   border: none;
   height: 2px;
@@ -115,10 +128,10 @@ code {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 100vh;
-  max-width: 1200px;
+  align-items: center;
+  width: 100%;
+  height: 7%;
   background-color: $cbck;
-  border: 1px solid $bord;
   border-radius: 0px 0px 10px 10px;
   border-top: none;
   box-sizing: border-box;
@@ -128,15 +141,17 @@ code {
   .NavBtn{
     object-fit: contain;
     color: white;
-    border-radius: 10px;
-    padding: 4px 16px;
+    border-radius: 12px;
+    padding: 10px;
+    padding-top: 2px;
     background-color: $cbck;
-    box-shadow: 1px 1px 8px grey;
     transition: all 0.2s ease;
-
+    max-height: 15px;
+    font-size: x-large;
     &:hover{
-      background-color: lighten(#18181B, 15%);
+      background-color: $btnadjust;
       transform: translateY(+2px);
+      color: black;
     }
   }
 }
@@ -145,11 +160,21 @@ code {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+    .Vitrine{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      box-sizing: border-box;
+      h1{
+        margin:0.5em;
+      }
+    }
     .Prev{
       display: flex;
       flex-direction: row;
       box-sizing: border-box;
-      margin: 20px 0px 20px 0px;
       align-items: center;
       gap: 20px;
       .Journey{
@@ -184,12 +209,15 @@ code {
             width:40px;
             padding: 5px;
           }
+          .ghub{
+            cursor:pointer;
+          }
         }
         .MeDesc{
           margin-bottom: 10px;
         }
         h2{
-          color: #50C878;
+          color: $cdh;
           font-size: xx-large;
         }
       }
@@ -201,21 +229,26 @@ code {
   flex-direction: row;
   box-sizing: border-box;
   gap: 20px;
+  justify-content: center;
     .Skillblock{
       display: flex;
       flex-direction: row;
+      flex-wrap: wrap;
+      flex: 0 0 calc(33.333% - 20px); 
+      justify-content: space-evenly;
       box-sizing: border-box;
+      background-color: $cbck;
+      border-radius: 20px;
       padding: 8px;
       gap: 5px;
       img{
-        background-color: $cbck;
+        transition:background 0.5s ease; 
+        border-radius: 20px;
+        padding: 5px;
       }
-    }
-    .VertiSep{
-      display: block;
-      height: 100px;
-      width: 10px;
-      color: #50C878;
+      img:hover{
+          background:$CoolYellow;
+        }
     }
 }
 
@@ -241,6 +274,8 @@ code {
           gap: 2%;
           margin: 2%;
             .Cards{
+              perspective: 1000;
+              cursor: pointer;
               display: flex;
               flex-direction: column;
               box-sizing: border-box;
@@ -248,7 +283,6 @@ code {
               border: 1px solid $bord;
               border-radius: 10px;
               padding: 10px;
-              cursor: pointer;
               box-shadow: 1px 1px 8px grey;
               transition:all 0.5s ease;
               color: inherit;
@@ -262,6 +296,9 @@ code {
                   list-style: none;
                   margin: 10px 0 0;
                   color: white;
+                }
+                .Cover{
+                  margin-bottom: 0.5em;
                 }
       }
     }
@@ -278,20 +315,17 @@ code {
   background-color: White;
 }
 
-.Cards:hover{
+.Cards:hover {
   background-color: $cdh;
   color: $cbck;
   border-color: $cbck;
 }
-
 
 .Cards:hover h2,
 .Cards:hover .stacklist,
 .Cards:hover .stacklist li {
   color: $cbck;
 }
-
-
 
 .footer{
   display: flex;

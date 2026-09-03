@@ -4,11 +4,11 @@ import Datavers from "../Vers.json"
 export default function Intro(){
     
     return(
-            <section className="Intro">
+            <section className="Intro" id="Me">
                 <h1 className="ITitle">Moi c'est Mat</h1>
-                <h2>Javascript Fullstack Dev. . . et plus ? </h2>
+                <h2>Dev Javascript Fullstack. . . et quoi d'autre ? </h2>
                 <p className="MeDesc">
-                    desc
+                    DE LA REDAC DE MEEEERDE
                 </p>
                 <section className="VersCont">  
                     {Datavers.map((item, index) => (
@@ -17,8 +17,9 @@ export default function Intro(){
                             display={item.display}
                             alt={item.alt} 
                         />
+                        
                     ))}
-                    
+                <a href="https://github.com/GriT5555"><img src="https://i.postimg.cc/NMCB5snm/github.webp" alt="Github - Mat" className="ghub"/></a>
                 </section>
             </section>
     );

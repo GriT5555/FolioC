@@ -1,0 +1,18 @@
+[
+    {
+        "title":"Python lang",
+        "display":"https://i.postimg.cc/fbVXgyND/pythonlogo.webp",
+        "alt":"Python"
+    },
+    {
+        "title":"C# / C++",
+        "display":"https://i.postimg.cc/jS5JL2Ct/cpplogo.webp",
+        "alt":"C# / C++"
+    },
+    {
+        "title":"Ziglang",
+        "display":"https://i.postimg.cc/B6DF4zbC/ziglogo.webp",
+        "alt":"Ziglang"
+    }
+]
+
