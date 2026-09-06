@@ -32,7 +32,7 @@ export default function CardsContainer(){
             </section>
 
             <section className="ProjectCards">
-                <h1 className="Conth2">WIP builds et futur projets</h1>
+                <h1 className="Conth2">WIP builds et futurs projets</h1>
                 <div className="Cardbox">
                     {Data2.map((project2) => {
                         let stackcontent;

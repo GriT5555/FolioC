@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 export default function Home(){
     return(
         <>
-            <header id="Pas deisgner mais j'essai">
+            <header id="Pas deisgner, on fait de son mieux x_x">
             <Navbar/>
             </header>
                 <main className="guts">

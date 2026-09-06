@@ -28,7 +28,7 @@ export default function Skillblocks() {
                     ))}
                 </section>   
             </section>
-            <h1>On y travail . . .</h1>
+            <h1>On y travaille . . .</h1>
             <section className="Skillblock">  
                     {Data6.map((item, index) => (
                         <Skillpic
