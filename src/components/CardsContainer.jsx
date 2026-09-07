@@ -20,7 +20,8 @@ export default function CardsContainer(){
                         }
                         
                         return(
-                            <Cards key={project.id} 
+                            <Cards key={project.id}
+                                   id ={project.id}
                                    title={project.title}
                                    cover={project.cover}
                                    stack={stackcontent}
@@ -46,6 +47,7 @@ export default function CardsContainer(){
                         
                         return(
                             <Cards key={project2.id} 
+                                   id ={project2.id}                                
                                    title={project2.title}
                                    cover={project2.cover}
                                    stack={stackcontent}

@@ -26,6 +26,10 @@ body, html {
   scroll-behavior: smooth;
 }
 
+header{
+  padding-bottom: 20px;
+}
+
 @font-face {
   font-family: "NeueA";
   src: url("./fonts/NeuealterNM.ttf") format("truetype");
@@ -98,7 +102,6 @@ code {
 .Mes, .Projects{
   min-height:100vh;
   scroll-margin-top: $navbar-height;
-  padding-top: $navbar-height;
   padding-bottom: 40px;
 }
 
@@ -162,6 +165,7 @@ code {
   box-sizing: border-box;
   align-items: center;
   justify-content: center;
+  padding-top: $navbar-height;
     .Vitrine{
       display: flex;
       flex-direction: column;
@@ -275,7 +279,6 @@ code {
           margin: 2%;
             .Cards{
               perspective: 1000;
-              cursor: pointer;
               display: flex;
               flex-direction: column;
               box-sizing: border-box;
@@ -289,6 +292,22 @@ code {
                 &ul{
                   color: white;
                 }
+                .CrdBtn{
+                  display: flex;
+                  box-sizing: border-box;
+                  object-fit: contain;
+                  align-items: center;
+                  justify-content: center;
+                  margin-top: auto;
+                  padding: 0.5em;
+                  border-radius: 25px;
+                  background-color: $pbck;
+                  border: none;
+                  font-family: inherit;
+                  font-size: medium;
+                  color: white;
+                  cursor: pointer;
+                }
                 .stacklist{
                   display: flex;
                   flex-wrap: wrap;
@@ -296,23 +315,21 @@ code {
                   list-style: none;
                   margin: 10px 0 0;
                   color: white;
+                  padding-bottom: 10px;
                 }
                 .Cover{
+                  width:100% ;
+                  object-fit: contain;
+                  height: 100px;
+                  width:100%;
+                  border-radius: 10px;
+                  border: $bord 1px solid;
+                  background-color: White;
                   margin-bottom: 0.5em;
                 }
       }
     }
   }
-}
-
-.Cards img{
-  width:100% ;
-  object-fit: contain;
-  height: 100px;
-  width:100%;
-  border-radius: 15px;
-  border: $bord 1px solid;
-  background-color: White;
 }
 
 .Cards:hover {
