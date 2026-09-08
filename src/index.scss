@@ -344,6 +344,21 @@ code {
   color: $cbck;
 }
 
+.ModalBody{
+  position: fixed;
+  top: 0;
+	left:25%;
+  width: 50%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 950;
+  backdrop-filter: blur(4px);
+  animation: fadeIn 1s ease-in;
+}
+
 .footer{
   display: flex;
   flex-direction: row;
