@@ -3,11 +3,12 @@
         "id":"12",
         "title":"Game recorder",
         "cover":"https://i.postimg.cc/RV8rSsLC/reclogo.webp",
-        "description":"",
+        "description":"Enregistrement, balisage et partage des sessions et parties 'unitaires' via l'accès au buffer / mémoire vive ou tampon des GPU, un apprentissage et une passion pour faire un SaaS il ne manque que tu temps.",
         "pictures":"",
         "github":"",
         "stack":[
-            "C#"
+            "C++ 17/20",
+            "DX 11/12"
         ]
     }
 ]

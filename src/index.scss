@@ -8,6 +8,7 @@ $pot2:#EDD4B2;
 $bckIvo:#EBDDC2;
 $cdh:#FDCF38;
 $CoolYellow:#FDCF38;
+$Confirmed:#50C878;
 
 $btnadjust:color.adjust($cdh, $lightness: 15%);
 $navbar-height: 70px;
@@ -307,6 +308,10 @@ code {
                   font-size: medium;
                   color: white;
                   cursor: pointer;
+                  transition: all 0.2s ease;
+                  &:hover{
+                    transform: translateY(-5px);
+                  }
                 }
                 .Cover{
                   width:100% ;
@@ -391,7 +396,7 @@ code {
       }
       footer{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         gap: 25px;
       }
@@ -405,6 +410,35 @@ code {
   height: 40px;
   width:40px;
   padding: 5px;
+}
+
+.ContactBlock{
+  display: flex;
+  flex-direction: column;
+  min-height: 50vh;
+  width: 100%;
+  gap: 25px;
+  padding: 1%;
+  a{
+      color: white;
+      text-decoration: underline;
+      text-decoration-thickness:1px ;
+      text-underline-offset:5px ;
+    } 
+  h1{
+    text-decoration: underline;
+    text-decoration-thickness:1px ;
+    text-underline-offset:15px ;
+  }
+  h2{
+    color: $Confirmed;
+  }
+  .CTAbtn{
+    font-size: xx-large;
+  }
+  .CTAtext{
+    font-size:x-large;
+  }
 }
 
 .footer{

@@ -18,7 +18,7 @@ export default function Skillblocks() {
                     ))}
                     </section>
 
-                <section className="Skillblock">  
+                <section className="Skillblock" id="InProgress">  
                     {Data5.map((item, index) => (
                         <Skillpic
                             key={index}

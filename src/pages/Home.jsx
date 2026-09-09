@@ -3,6 +3,7 @@ import Intro from "../components/Intro";
 import Journey from "../components/Journey";
 import CardsContainer from "../components/CardsContainer";
 import Skillblocks from "../components/Skillblocks";
+import ContactBlock from "../components/Contact";
 import Footer from "../components/Footer";
 
 export default function Home(){
@@ -20,6 +21,7 @@ export default function Home(){
                         <Skillblocks/>
                     </section> 
                     <CardsContainer id="Builds"/>
+                    <ContactBlock/>
                 </main>
             <Footer />
         </>
