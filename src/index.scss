@@ -308,15 +308,6 @@ code {
                   color: white;
                   cursor: pointer;
                 }
-                .stacklist{
-                  display: flex;
-                  flex-wrap: wrap;
-                  gap: 8px;
-                  list-style: none;
-                  margin: 10px 0 0;
-                  color: white;
-                  padding-bottom: 10px;
-                }
                 .Cover{
                   width:100% ;
                   object-fit: contain;
@@ -330,6 +321,16 @@ code {
       }
     }
   }
+}
+
+.stacklist{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+  margin: 10px 0 0;
+  color: white;
+  padding-bottom: 10px;
 }
 
 .Cards:hover {
@@ -346,17 +347,64 @@ code {
 
 .ModalBody{
   position: fixed;
-  top: 0;
+  top: 10%;
 	left:25%;
   width: 50%;
-  height: 100%;
+  height: 85%;
   background: rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  border: 1px solid $bord;
   display: flex;
+  box-sizing: border-box;
   justify-content: center;
   align-items: center;
+  padding: 25px;
   z-index: 950;
   backdrop-filter: blur(4px);
-  animation: fadeIn 1s ease-in;
+  animation: fadeIn 1s ease-out;
+  .ModCont{
+    .CloseMod{
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      background: transparent;
+      border: none;
+      color: white;
+      font-size: 2.5rem;
+      line-height: 1;
+      cursor: pointer;
+      transition: color 0.3s ease, transform 0.3s ease;
+      z-index: 10;
+      &:hover{
+        color: $cdh; 
+        transform: scale(1.1);
+      }
+    }
+    .ModWrap{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 75px;
+      p{
+        font-size: xx-large;
+      }
+      footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 25px;
+      }
+    }
+  }
+}
+
+.ModHub{
+  background-color: white;
+  border-radius: 50px;
+  height: 40px;
+  width:40px;
+  padding: 5px;
 }
 
 .footer{

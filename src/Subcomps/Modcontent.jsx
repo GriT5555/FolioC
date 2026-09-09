@@ -1,4 +1,4 @@
-export default function Modcontent({title, desc, stack}){
+export default function Modcontent({title, desc, stack, src}){
     let stackContent;
     if (!stack) {
         stackContent = <li>Aucune stack utilisé</li>;
@@ -8,15 +8,15 @@ export default function Modcontent({title, desc, stack}){
         stackContent = <li>{stack}</li>
     }
     return(
-        <section /* content wrapper */>
+        <section className="ModWrap"/* content wrapper */>
             <h1>{title}</h1>
             <p>{desc}</p>
-            <div /* content "footer" */>
+            <footer /* content "footer" */>
                 <ul className="stacklist">{stackContent}</ul>
-                <a href="https://github.com/GriT5555">
-                    <img src="https://i.postimg.cc/NMCB5snm/github.webp" alt="Github - Mat" className="ghub"/>
+                <a href={src} target="_blank" rel="noopener noreferrer">
+                    <img src="https://i.postimg.cc/NMCB5snm/github.webp" alt="Github - Mat" className="ModHub"/>
                 </a>
-            </div>
+            </footer>
         </section>
     )
 }

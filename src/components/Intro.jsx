@@ -19,7 +19,7 @@ export default function Intro(){
                         />
                         
                     ))}
-                <a href="https://github.com/GriT5555"><img src="https://i.postimg.cc/NMCB5snm/github.webp" alt="Github - Mat" className="ghub"/></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/GriT5555"><img src="https://i.postimg.cc/NMCB5snm/github.webp" alt="Github - Mat" className="ghub"/></a>
                 </section>
             </section>
     );
