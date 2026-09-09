@@ -6,6 +6,6 @@ export default function NavBtn({title, id, targetId}){
         }
     };
     return(
-        <a className="NavBtn" href={title === "Me" ? "#" : `#${targetId}`} id={id} onClick={topScroll}>{title}</a>
+        <a className="NavBtn" href={title === "Moi" ? "#" : `#${targetId}`} id={id} onClick={topScroll}>{title}</a>
     );
 }

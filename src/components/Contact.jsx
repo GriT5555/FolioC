@@ -12,7 +12,7 @@ export default function ContactBlock() {
                     <h2>Ouvert aux opportunités</h2>
                     <br/>
                     <p className="CTAtext">
-                        À ce jour, je suis disponible et prèt à répondre a toute offre qui correspondrai a un service ou domaine compétence présenté, mais également à apprendre.
+                        À ce jour, je suis disponible et prèt à répondre a toute expérience qui correspondrai a un service ou domaine de compétences présentés, mais également à apprendre.
                         <br/><br/>
                         En locurence on parlera d'applications web partielle ou complètes, mono ou multi pages incluant des services nécessitant une OU plusieurs API tierces.
                         <br /><br/>
