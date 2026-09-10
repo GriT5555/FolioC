@@ -1,6 +1,5 @@
-import { useState } from 'react'
 import './App.css'
-import Home from './pages/home';
+import Home from './pages/Home.jsx';
 import "./index.scss"
 
 export default function App(){
