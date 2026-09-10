@@ -6,9 +6,9 @@ export default function Intro(){
     return(
             <section className="Intro" id="Moi">
                 <h1 className="ITitle">Moi c'est Mat</h1>
-                <h2>Dev Javascript Fullstack. . . et quoi d'autre ? </h2>
+                <h2>Dev Javascript Fullstack. . . et pourquoi ? </h2>
                 <p className="MeDesc">
-                    DE LA REDAC DE MEEEERDE
+                    Concilier grâce à de fins projets, création, passion et utilitarisme en pensant en permanence à l'humain qui maniera les instruments et interfaces développés.
                 </p>
                 <section className="VersCont">  
                     {Datavers.map((item, index) => (

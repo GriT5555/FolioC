@@ -12,11 +12,11 @@ export default function ContactBlock() {
                     <h2>Ouvert aux opportunités</h2>
                     <br/>
                     <p className="CTAtext">
-                        À ce jour, je suis disponible et prèt à répondre a toute expérience qui correspondrai a un service ou domaine de compétences présentés, mais également à apprendre.
+                        À ce jour, je suis disponible et prêt à répondre à toute expérience qui correspondrait à un service ou domaine de compétences présentés, mais également à apprendre.
                         <br/><br/>
-                        En locurence on parlera d'applications web partielle ou complètes, mono ou multi pages incluant des services nécessitant une OU plusieurs API tierces.
+                        En l'occurrence, on parlera d'applications web partielles ou complètes, mono ou multi pages incluant des services nécessitant une OU plusieurs API tierces.
                         <br /><br/>
-                        Les dépots de codes, ou repos, des projets en cours sont actualisés. Je développe, par passion et par un certain utilitarisme, paradoxalement également personnel, les compétences dans divers domaines mentionnés <a href="#InProgress">ici</a>
+                        Les dépôts de codes, ou repos, des projets en cours sont actualisés. Je développe, par passion et par un certain utilitarisme, paradoxalement également personnel, les compétences dans divers domaines mentionnés <a href="#InProgress">ici</a>
                         <br/><br/>
                     </p>
                 </div>

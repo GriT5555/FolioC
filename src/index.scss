@@ -183,11 +183,13 @@ code {
       display: flex;
       flex-direction: row;
       box-sizing: border-box;
+      justify-content: center;
       align-items: center;
       gap: 20px;
       .Journey{
         display: flex;
         flex-direction: column;
+        width: 40%;
         gap: 5px;
         h2{
           text-decoration: underline;
@@ -203,6 +205,7 @@ code {
         border-radius: 20px;
         background-color: $cbck;
         max-width: 80%;
+        width: 40%;
         box-shadow: 1px 1px 8px grey;
         padding: 8px;
         .VersCont{
@@ -545,6 +548,10 @@ code {
 @media (max-width:690px) {
   .Mes .Prev{
     flex-direction: column;
+    .Journey{
+      width: 100%;
+      text-align: center;
+    }
     .Intro{
       min-width: 100%;
     }
