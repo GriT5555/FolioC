@@ -11,7 +11,7 @@ export default function Navbar() {
                     <NavBtn title="Contact" targetId="Contact"/>
                 </div>
                 <a target="_blank" rel="noopener noreferrer" href="https://github.com/GriT5555">
-                    <img loading="lazy" src="https://i.postimg.cc/NMCB5snm/github.webp" alt="Github - Mat" className="ModHub"/>
+                    <img loading="lazy" src="https://iili.io/nfnnmkG.webp" alt="Github - Mat" className="ModHub"/>
                 </a>
             </nav>
     );
