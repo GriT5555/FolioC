@@ -8,7 +8,9 @@
         "stack":[
             "HTML", 
             "CSS"
-        ]
+        ],
+        "goal":"Construire et styliser la landing page d'un site de réservation.",
+        "improvement":"Ajouter de pontentielles features, observées chez les leaders du secteur."
     },
     {
         "id":"21",
@@ -16,7 +18,9 @@
         "cover":"https://iili.io/nfnoHhl.webp",
         "description":"Une introduction intensive à l'utilisation de Javascript via la personnalisation d'un portfolio d'une architecte d'intérieur fictive incluant la mention de requêtes et l'utilisation d'un Swagger préparametré.",
         "github":"https://github.com/GriT5555/JS_Final",
-        "stack":"Javascript"
+        "stack":"Javascript",
+        "goal":"Implémenter la personnalisation de la vitrine artistique d'une artiste.",
+        "improvement":"Supprimer définitivement les ressources non utilisées."
     },
     {
         "id":"31",
@@ -24,7 +28,9 @@
         "cover":"https://iili.io/nfnh9UX.webp",
         "description":"Exposition d'un cas pratique, un site d'une photographe professionnelle nécessitant de flagrantes améliorations, introduction aux audits de performances de sites et applications web via Lighthouse/GTMetrix et autres, l'écoute des dev tools et analyse des fichiers chargés ainsi qu'aux méthodes de référencement dites de 'SEO' et des balises nécessaires aux résultats enrichis.",
         "github":"https://github.com/GriT5555/SEO_Project",
-        "stack":"Javascript"
+        "stack":"Javascript",
+        "goal":"Débusquer et corriger les anomalies ralentissant les performances générales du site. Mettre en place un référencement web solide.",
+        "improvement":"Améliorer le contraste des différents éléments visuels."
     },
     {
         "id":"41",
@@ -35,7 +41,9 @@
         "stack":[
             "Javascript",
             "React"
-        ]
+        ],
+        "goal":"Structurer une application React multipages.",
+        "improvement":"Organiser les composants en plus de sous-composants utiles, afin d'avoir une meilleure flexibilité."
     },
     {
         "id":"51",
@@ -51,7 +59,9 @@
             "Express",
             "Mongoose",
             "Sharp"
-        ]
+        ],
+        "goal":"Développer la logique back-end d'un site de notation de livres.",
+        "improvement":"Simplifier les algorithmes utilisés ainsi que les middlewares."
     }
 ]
 

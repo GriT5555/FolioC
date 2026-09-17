@@ -9,6 +9,8 @@
         "stack":[
             "C++ 17/20",
             "DX 11/12"
-        ]
+        ],
+        "goal":"Observer et comprendre les comportements graphiques.",
+        "improvement":"Faut-il encore le commencer celui-là. . ."
     }
 ]
