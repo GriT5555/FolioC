@@ -1,4 +1,4 @@
-export default function Modcontent({title, desc, stack, src}){
+export default function Modcontent({title, desc, stack, src, goal, imp}){
     let stackContent;
     if (!stack) {
         stackContent = <li>Aucune stack utilisé</li>;
@@ -8,10 +8,18 @@ export default function Modcontent({title, desc, stack, src}){
         stackContent = <li>{stack}</li>
     }
     return(
-        <section className="ModWrap"/* content wrapper */>
+        <section className="ModWrap">
             <h1>{title}</h1>
+            <br></br>
+            <h2 className="Pgoal">{goal}</h2>
+            <br></br>
             <p>{desc}</p>
-            <footer /* content "footer" */>
+            <br></br>
+            <div className="Imp">
+                <img loading="lazy" src="https://iili.io/nor8Dut.png" alt="Questionmark"/>
+                <p>{imp}</p>
+            </div>
+            <footer>
                 <ul className="stacklist">{stackContent}</ul>
                 <a href={src} target="_blank" rel="noopener noreferrer">
                     <img loading="lazy" src="https://iili.io/nfnnmkG.webp" alt="Github - Mat" className="ModHub"/>

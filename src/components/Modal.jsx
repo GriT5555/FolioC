@@ -10,6 +10,8 @@ export default function Modal({project, onClose}) {
                     desc={project.description}
                     stack={project.stack}
                     src={project.github}
+                    goal={project.goal}
+                    imp={project.improvement}
                 />
             </div>
         </section>
