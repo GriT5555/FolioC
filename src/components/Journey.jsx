@@ -9,6 +9,7 @@ export default function Journey(){
                 <p>Université d'Orsay Paris-sud - PACES.</p>
             <h2>2016-2019</h2>
                 <p>Lycée polyvalent Marie Laurencin - Terminale & Première "Scientifique", Seconde génerale.</p>
+                <br></br> <br></br>
                 <p>Langues : Anglais - C1 ; Espagnol - B1 ; Russe - A2 .</p>
         </section>
     )
