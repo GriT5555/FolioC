@@ -186,6 +186,7 @@ code {
       justify-content: center;
       align-items: center;
       gap: 20px;
+      padding-top: 10px;
       .Journey{
         display: flex;
         flex-direction: column;
@@ -242,7 +243,9 @@ code {
   box-sizing: border-box;
   gap: 20px;
   justify-content: center;
-    .Skillblock{
+}
+
+.Skillblock{
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
@@ -253,6 +256,12 @@ code {
       border-radius: 20px;
       padding: 8px;
       gap: 5px;
+      .Stacku{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+      }
       img{
         transition:background 0.5s ease; 
         width: 100px;
@@ -264,7 +273,6 @@ code {
           background:$CoolYellow;
         }
     }
-}
 
 .Skillpic{
   width: 100px;
@@ -295,6 +303,7 @@ code {
             .Cards{
               display: flex;
               flex-direction: column;
+              align-items: center;
               box-sizing: border-box;
               width: 22%;
               border: 1px solid $bord;
@@ -322,6 +331,7 @@ code {
                   color: white;
                   cursor: pointer;
                   transition: all 0.2s ease;
+                  width: 100%;
                   &:hover{
                     transform: translateY(-5px);
                   }
@@ -419,10 +429,21 @@ code {
       box-sizing: border-box;
       object-fit: contain;
       gap: 25px;
+      .Imp{
+        img{
+          width: 35px;
+          height: 35px;
+        }
+      }
       h1{
         font-size: 1.8rem;
         margin: 0;
         word-wrap: break-word;
+      }
+      h2{
+        text-decoration: underline;
+        text-decoration-thickness:1px ;
+        text-underline-offset:5px ;
       }
       p{
         font-size: 1.5rem;
