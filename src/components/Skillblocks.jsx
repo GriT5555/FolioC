@@ -14,6 +14,7 @@ export default function Skillblocks() {
                             key={index}
                             display={item.display}
                             alt={item.alt}
+                            title={item.title}
                         />
                     ))}
                     </section>
@@ -24,6 +25,7 @@ export default function Skillblocks() {
                             key={index}
                             display={item.display}
                             alt={item.alt}
+                            title={item.title}
                         />
                     ))}
                 </section>   
@@ -35,6 +37,7 @@ export default function Skillblocks() {
                             key={index}
                             display={item.display}
                             alt={item.alt}
+                            title={item.title}
                         />
                     ))}
                 </section>  
