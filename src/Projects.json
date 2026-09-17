@@ -1,7 +1,7 @@
 [
     {
         "id":"11",
-        "title":"La base",
+        "title":"La base des bases",
         "cover":"https://iili.io/nfnnD2n.webp",
         "description":"Afin de comprendre ce que l'on construira par la suite, il faut bien apprendre à empiler les blocs simplement et directement comme les jeux de construction pour enfants, c'est essentiellement ce dont il s'agit, une introduction à la structure fondamentale du web via HTML et l'organisation de ce squelette par la pratique basique du CSS.",
         "github":"https://github.com/GriT5555/Booki_Final",
@@ -12,7 +12,7 @@
     },
     {
         "id":"21",
-        "title":"JS front",
+        "title":"JS front-end",
         "cover":"https://iili.io/nfnoHhl.webp",
         "description":"Une introduction intensive à l'utilisation de Javascript via la personnalisation d'un portfolio d'une architecte d'intérieur fictive incluant la mention de requêtes et l'utilisation d'un Swagger préparametré.",
         "github":"https://github.com/GriT5555/JS_Final",
@@ -20,7 +20,7 @@
     },
     {
         "id":"31",
-        "title":"Debugging and SEO",
+        "title":"Debugging et SEO",
         "cover":"https://iili.io/nfnh9UX.webp",
         "description":"Exposition d'un cas pratique, un site d'une photographe professionnelle nécessitant de flagrantes améliorations, introduction aux audits de performances de sites et applications web via Lighthouse/GTMetrix et autres, l'écoute des dev tools et analyse des fichiers chargés ainsi qu'aux méthodes de référencement dites de 'SEO' et des balises nécessaires aux résultats enrichis.",
         "github":"https://github.com/GriT5555/SEO_Project",
@@ -39,7 +39,7 @@
     },
     {
         "id":"51",
-        "title":"Backend Node/MDB",
+        "title":"Backend Node / MDB",
         "cover":"https://iili.io/nfnnb7s.webp",
         "description":"Élaboration de la logique backend d'un site de notation de livres, préparation d'un server Express et d'une base de données MongoDB et réalisation des modèles selon lesquels les données s'organiseront dans la base, utilisation de middlewares et contrôleurs appelés via un routeur selon les requêtes utilisateurs, de login et de notation. Qui dit login, dit donc aussi identifiants et cryptage, introduction à la cybersécurité et sécurisation de données. Arithmétique et algorithmes de base.",
         "github":"https://github.com/GriT5555/BackendJS-OC-P6",
