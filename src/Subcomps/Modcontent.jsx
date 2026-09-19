@@ -7,6 +7,10 @@ export default function Modcontent({title, desc, stack, src, goal, imp}){
     } else {
         stackContent = <li>{stack}</li>
     }
+    let impContent;
+    if(!imp) {
+        impContent = <p>Les axes d'améliorations seront définis une fois une version finale du projet déposé.</p>
+    }
     return(
         <section className="ModWrap">
             <h1>{title}</h1>
@@ -17,7 +21,7 @@ export default function Modcontent({title, desc, stack, src, goal, imp}){
             <br></br>
             <div className="Imp">
                 <img loading="lazy" src="https://iili.io/nor8Dut.png" alt="Questionmark"/>
-                <p>{imp}</p>
+                <p>{imp || impContent}</p>
             </div>
             <footer>
                 <ul className="stacklist">{stackContent}</ul>
