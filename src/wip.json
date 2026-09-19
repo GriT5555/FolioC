@@ -12,5 +12,18 @@
         ],
         "goal":"Observer et comprendre les comportements graphiques.",
         "improvement":"Faut-il encore le commencer celui-là. . ."
+    },
+    {
+        "id":"22",
+        "title":"To-do app",
+        "cover":"https://iili.io/nI8Yckg.webp",
+        "description":"Application basique d'organisation du travail et de rétention d'idées et d'événements. Entièrement au service de l'utilisateur quel que soit le nombre, le type ou la date prévus pour quelconque activité en passant bien sûr par la personnalisation de l'UI.",
+        "github":"https://github.com/GriT5555/Todo",
+        "stack": [
+            "Python",
+            "Tkinter"
+        ],
+        "goal":"Ce projet est essentiellement un outil d'organisation, faisant office de projet d'introduction plus ou moins poussé de Python et de ses packages.",
+        "improvement":""
     }
 ]
