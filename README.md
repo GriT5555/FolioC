@@ -1,3 +1,15 @@
+# My dev portfolio
+
+## Encapsulating projects, student and personnal ones, about the carreer I aspire to continue, some will answer specific needs or issues, others are for the beauty of the game.
+
+#### Essentially a one-pager currently, this thing will update with time and commitment to whatever I feel like building. 
+#### Have fun browsing it (lol) and do not hesitate on proposing any interesting ideas you have inside that brain of yours. 
+
+AI is a tool that you can learn from it, using it without considering or judging what it spits back at you is pointless.[^1]
+It is used in this project for a second hand design advice because damn I realized i was really bad at it starting my page and it is a real job, I do not have a designer mind nor teaching.[^2]
+
+[Retrouvez les autres projets étudiants ou personnels ici](https://matjsdev.netlify.app/)
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
