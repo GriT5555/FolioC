@@ -8,7 +8,7 @@
 >AI is a tool that you can learn from it, using it without considering or judging what it spits back at you is pointless.
 >It is used in this project for a second hand design advice because damn I realized i was really bad at it starting my page and it is a real job, I do not have a designer mind nor teaching.
 
-[Retrouvez les autres projets étudiants ou personnels ici](https://matjsdev.netlify.app/)
+[Retrieve any current or past student and personal projects in my deployed folio here.](https://matjsdev.netlify.app/)
 
 # React + Vite
 
