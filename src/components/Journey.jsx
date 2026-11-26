@@ -15,9 +15,9 @@ export default function Journey(){
             </section>
             <section className="JBlock">
                 <h2>2024-2026</h2>
-                    <p>Freelance front-end dev.</p> 
+                    <p>Freelance front-end dev .</p> 
                 <h2>2022-2024</h2>
-                    <p>Employé commercial A2.</p> 
+                    <p>Employé commercial A2 .</p> 
             </section>
         </section>
     )
