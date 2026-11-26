@@ -11,7 +11,7 @@ $CoolYellow:#FDCF38;
 $Confirmed:#50C878;
 
 $btnadjust:color.adjust($cdh, $lightness: 15%);
-$navbar-height: 70px;
+$navbar-height: 50px;
 
 body, html {
   display: flex;
@@ -185,8 +185,9 @@ code {
       justify-content: center;
       align-items: center;
       gap: 20px;
-      padding-top: 10px;
+      padding-top: $navbar-height;
       height: 100vh;
+      box-sizing: border-box;
       .Journey{
         display: flex;
         flex-direction: row;
@@ -545,13 +546,16 @@ code {
     height: 75px;
   }
 
-  .Mes .Prev .Intro{
-    min-width: 50%;
-    h1{
-      margin: 0;
-    }
-    h2{
-      font-size: 1.2em;
+  .Mes .Prev {
+      height: auto;
+      .Intro{
+      min-width: 50%;
+      h1{
+        margin: 0;
+      }
+      h2{
+        font-size: 1.2em;
+      }
     }
   }
 
@@ -582,9 +586,14 @@ code {
 @media (max-width:690px) {
   .Mes .Prev{
     flex-direction: column;
+    height: auto;
     .Journey{
+      flex-direction: column;
       width: 100%;
       text-align: center;
+      .JBlock{
+        width: 100%;
+      }
     }
     .Intro{
       min-width: 100%;
