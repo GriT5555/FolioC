@@ -21,7 +21,7 @@ export default function ContactBlock() {
                     </p>
                 </div>
                 <a href={mailtoLink} className="CTAbtn">
-                    Alors ? Quels sont vos projets ? 
+                    Alors ? Quels sont vos projets ?<img className="mailpic" src="https://iili.io/oqrPqPV.webp" alt="send me an email!"/>
                 </a>
             </div>
         </section>

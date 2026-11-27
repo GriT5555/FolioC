@@ -519,6 +519,16 @@ code {
   }
 }
 
+.CTAbtn{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  img{
+    height: 35px;
+    width: 35px;
+  }
+}
+
 .footer{
   border-top: 1px solid #262B33;
   width: 100%;
