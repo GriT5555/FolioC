@@ -491,10 +491,11 @@ code {
 .ContactBlock{
   display: flex;
   flex-direction: column;
-  min-height: 50vh;
+  min-height: 60vh;
   width: 100%;
   gap: 25px;
   padding: 1%;
+  padding-top: $navbar-height;
   a{
       color: white;
       text-decoration: underline;
